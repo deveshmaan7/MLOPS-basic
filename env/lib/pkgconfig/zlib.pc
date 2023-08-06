@@ -1,0 +1,13 @@
+prefix=/Users/deveshmaan/Desktop/i-Neuron-projects/ML-Flow/env
+exec_prefix=/Users/deveshmaan/Desktop/i-Neuron-projects/ML-Flow/env
+libdir=/Users/deveshmaan/Desktop/i-Neuron-projects/ML-Flow/env/lib
+sharedlibdir=/Users/deveshmaan/Desktop/i-Neuron-projects/ML-Flow/env/lib
+includedir=/Users/deveshmaan/Desktop/i-Neuron-projects/ML-Flow/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
